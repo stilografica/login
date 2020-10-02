@@ -1,0 +1,68 @@
+
+body{
+    background: url(img/amy-shamblen-euqiHwS38Rw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#wrapper {
+    width: 30%;
+    margin: 50px auto;
+    padding: 50px;
+    background: rgba(255, 255, 255,.9);
+    color:#000;
+    line-height: 1.3em;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  @media screen and (max-width: 800px) {
+
+    #wrapper {
+      width: 80%;
+    }
+
+
+
+  }
+
+ #logotipo{
+    width:60%;
+    display:block;
+    margin: auto;
+
+ }
+  form {
+    margin: 10px auto;
+  }
+
+  div {
+    margin-bottom: 30px;
+
+  }
+  .textInput {
+    height: 28px;
+    margin-top:20px;
+    margin-top:4px;
+    border: 0px;
+    background: rgba(0,0,0,.2);
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding: 5px;
+    width: 95%;
+  }
+  .textInput:focus {
+    outline: none;
+  }
+  .btn {
+    width: 98.6%;
+    border: none;
+    margin-top: 5px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+    background-color: #f35053;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 12px;
+  }

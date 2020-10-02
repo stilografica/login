@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Form validation with JavaScript</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+
+  <div id="wrapper">
+	<img id="logotipo" src="img/pepe-juice-02.png" alt="imagen logotipo" title="Pepe Juice">
+   <form method="POST" action="alta.html" onsubmit="return Validate()" name="vform" >
+   	<div id="username_div">
+   	  <label>Username</label> <br>
+   	  <input type="text"  id="username" class="textInput">
+   	  <div id="username_error"></div>
+   	</div>
+   	<div id="email_div">
+   	  <label>Email</label> <br>
+   	  <input type="email"  id="email" class="textInput">
+   	  <div id="email_error"></div>
+	</div>
+	<div id="tel_div">
+	  <label>Teléfono</label> <br>
+	  <input type="tel"  id="tel" class="textInput">
+	  <div id="tel_error"></div>
+	</div>
+
+	<div id="pass_div">
+		<label>Contraseña</label> <br>
+		<input type="password"  id="pass" class="textInput">
+		<div id="pass_error"></div>
+	  </div>
+	
+	  <div id="pass2_div">
+		<label>Repite la contraseña</label> <br>
+		<input type="password"  id="pass2" class="textInput">
+		<div id="pass2_error"></div>
+	  </div>
+
+   	<div>
+   		<input type="submit" name="register" value="Acceder" class="btn">
+   	</div>
+   </form>
+</div>
+	
+     <script src='formAlumnes.js' type='text/javascript'></script>
+</body>
+</html>
